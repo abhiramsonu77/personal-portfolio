@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: 'Balsamiq Sans', cursive;
+    background: #7baa78;
+}
+
+
+
+.logo{
+    height: 75px;
+    float: left;
+}
+.navbar{
+    display: flex;
+    background-color: rgb(179, 179, 179);
+    
+    overflow: auto;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    float: right;
+    align-items: center;
+}
+.navbar ul li{
+    float: left;
+}
+
+.navbar ul li a{
+    display: block;
+    color: black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+}
+.navbar ul li a:hover{
+    background-color: whitesmoke;
+    color: #333;
+    border-radius: 5px;
+}
+
+
+.contact-form input[type=text], input[type=email], textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+
+.contact-form input[type=button]{
+    padding: 5px 25px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
+
+.contact-form input[type=button]:hover{
+    background-color: lightslategray;
+    color: white;
+}
+
+.contact-info{
+    padding: 15px 15px;
+    margin: 30px;
+}

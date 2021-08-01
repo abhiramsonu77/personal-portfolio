@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    font-family: 'Balsamiq Sans', cursive;
+    
+}
+
+.home{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+    height: 100%;
+    background-image: url("../img/back.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.dp{
+    width: 250px;
+    height: 225px;
+    
+    margin-left: 200px;
+}
+.home-content{
+    text-align: center;
+    float: right;
+    justify-content: right;
+    
+}
+
+.home-content h1{
+    margin-left: 50px;
+    font-size: 75px;
+}
+.home-content p{
+    margin-left: 50px;
+    font: 30px;
+    padding-top: 5px;
+    
+}
+
+.nav{
+
+    width: 100%;
+    overflow: auto;
+    padding: 10px;
+    justify-content: center;
+    
+}
+.nav ul {
+    list-style: none;
+    margin: 0;
+    margin-left: 50px;
+    float: right;
+    align-items: center;
+    justify-content: center;
+}
+.nav ul li{
+    float: right;
+    float: left;
+    justify-content:right;
+}
+
+.nav ul li a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    justify-items: center;
+}
+.nav ul li a:hover{
+    background-color: whitesmoke;
+    color: #333;
+    border-radius: 5px;
+}
+
+/*foot*/
+.foot-content{
+
+
+
+    justify-content: center;  
+}
+.foot-content {
+    text-align: center;
+}
+.foot-content li{
+    display: inline-block;
+    margin: 0px 10px;
+    
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+.fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #959595;
+    color: white;
+  }
+  .fa-instagram {
+    background: #959595;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #959595;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    background: #959595;
+    color: white;
+  }
+  
+  .fa-github {
+    background: #959595;
+    color: white;
+  }
+ 
+  
+/*footer*/
+  footer{
+    background-color: darkgray;
+    color: black;
+    text-align: center;
+    width:100% ;
+    padding: 20px;
+}
